@@ -34,14 +34,15 @@ git clone https://github.com/XinboPHD/PhD_thesis/IoTFuzz.git
 
 ## Virtural Machine
 If you use vitural machine to build environment, I would recommand you to download the virtual machine image and run IoTFuzz.
+Here is the [link](https://liveswinburneeduau-my.sharepoint.com/:u:/g/personal/linli_swin_edu_au/EZGxKcVSSJNHgH1IBVO_mygBU44iaVkuBypygPSpUuevXw?e=3VpLxz) to the virtual machine image and the details are shown as below:
 
-OS: Windows 10 (Suggest turning off automatical update)
+**OS:** Windows 10 (Suggest turning off automatical update)
 
-User name: administrator
+**User name:** administrator
 
-No password
+**No password**
 
-Conda environment name: IoTFuzz
+**Conda environment name:** IoTFuzz
 
 We pre-install IoTFuzz and relevant softwares in a virutal machine, built in Windows 10 OS. It can be download from here. 
 The virtual machine is created in VMware Fusion. The environment can succesfully support IoTFuzz running.
@@ -111,6 +112,12 @@ This figure shows the a example of POS tagging and the nouns are easily found in
 
 <img width = "500" src="https://github.com/XinboPHD/PhD_thesis/blob/main/IoTFuzz/images/PosTagging.png">
 
-## Tips
+<!-- ## Tips
+ -->
 
 
+# License
+---------
+
+This project is licensed under the MIT License - see the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ file for details.
