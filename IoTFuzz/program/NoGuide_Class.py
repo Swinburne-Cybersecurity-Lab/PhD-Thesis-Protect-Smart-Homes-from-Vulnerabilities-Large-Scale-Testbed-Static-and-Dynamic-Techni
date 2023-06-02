@@ -194,6 +194,10 @@ class SimNoGui:
 
 
 
+
+
+
+
     def simulate(self, policy_num, initial_para_filename):
         # Record the simulation times
         self.simu_times = 0
@@ -329,7 +333,13 @@ class SimNoGui:
                     self.eng.set_param(self.modelName,'SimulationCommand','stop',nargout=0)
                     return
 
-                
+
+
+
+
+
+
+
 
 
     def checkEngine(self, which_policy):

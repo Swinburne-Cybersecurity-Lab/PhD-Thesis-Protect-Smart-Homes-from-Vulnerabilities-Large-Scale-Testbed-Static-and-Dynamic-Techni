@@ -57,11 +57,15 @@ def OutDoorEnvironmentExperiments(config):
 def lanuch_no_guide(config, initial_para_filename):
 	simulation = no_gui.SimNoGui(config)
 
+	#Get Run numbers
+	policy_nums = int(initial_para_filename.split('.')[0].split('_')[-2])
+
 	# #Control Loop
-	for policy_num in range(1, 11):
+	for policy_num in range(1, policy_nums+1):
 		#Establishes a Connection
 		simulation.connectToMatlab()
 
+		#start run each policy
 		simulation.simulate(policy_num, initial_para_filename)
 
 
